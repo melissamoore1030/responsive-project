@@ -23,6 +23,8 @@ h6 {
 p {
   font-family: "Poppins", serif;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .hero {
@@ -49,10 +51,23 @@ p {
   line-height: 2;
 }
 
-a.btn {
+.btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-label {
+  font-size: 64px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
