@@ -77,6 +77,28 @@ p {
   padding: 120px 60px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.photo {
+  border-radius: 15px;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 40px;
@@ -95,5 +117,9 @@ p {
   }
   .hero {
     padding: 25px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
