@@ -20,6 +20,10 @@ h6 {
   font-weight: bold;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: "Poppins", serif;
   font-weight: normal;
@@ -147,6 +151,45 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
+footer {
+  padding: 60px;
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 40px;
@@ -173,5 +216,8 @@ nav a:hover {
 
   nav a {
     font-size: 12px;
+  }
+  footer .email-link {
+    font-size: 18px;
   }
 }
