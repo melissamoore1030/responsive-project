@@ -214,6 +214,10 @@ footer .social-links a:hover {
     padding: 0;
   }
 
+  .content-container h1 {
+    font-size: 48px;
+  }
+
   nav a {
     font-size: 12px;
   }
